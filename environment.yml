@@ -1,0 +1,14 @@
+name: ni38
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pip
+  - numpy
+  - heudiconv
+  - nibabel
+  - nipype
+  - pip:
+    - pybids
+
+    
